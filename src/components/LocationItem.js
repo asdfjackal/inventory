@@ -7,9 +7,9 @@ function LocationItem(props){
             <td>{name}</td>
             <td>{value}</td>
             <td>
-                <span onClick={decrement}>&nbsp;-&nbsp;</span>
+                <span onClick={decrement}>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
                 <span> | </span>
-                <span onClick={increment}>&nbsp;+&nbsp;</span>
+                <span onClick={increment}>&nbsp;&nbsp;+&nbsp;&nbsp;</span>
             </td>
         </tr>
     )

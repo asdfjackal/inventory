@@ -76,7 +76,7 @@ class App extends Component{
 		}
 		
 		locations.push(location)
-		
+
 		this.setState(locations)
 		this.saveData()
 	}
@@ -126,7 +126,7 @@ class App extends Component{
 				<hr />
 				<main>
 					<p>
-						<span onClick={() => {this.setShowItems(false)}}>Locations</span> | <span onClick={() => {this.setShowItems(true)}}>Items</span>
+						<span className={showItems ? '' : 'selected'} onClick={() => {this.setShowItems(false)}}>Locations</span> | <span className={showItems ? 'selected' : ''}  onClick={() => {this.setShowItems(true)}}>Items</span>
 					</p>
 					<hr />
 					{showItems ? (

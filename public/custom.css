@@ -1,3 +1,7 @@
 hr {
   margin: 1rem 0
 }
+
+span.selected {
+  font-weight: bold;
+}
