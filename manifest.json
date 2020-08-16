@@ -1,8 +1,8 @@
 {
-  "name": "Basic Inventory",
   "short_name": "Inventory",
-  "theme_color": "#2196f3",
-  "background_color": "#2196f3",
+  "name": "Basic Inventory",
+  "start_url": ".",
   "display": "standalone",
-  "start_url": "."
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }
